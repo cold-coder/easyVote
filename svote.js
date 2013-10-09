@@ -129,7 +129,6 @@ var showResult = function(){
 			if(ret[key] == item) retSet[item]++;
 		 }
 	}
-	//console.log(retSet);
 	var html = '<table class="pure-table pure-table-bordered"><thead><tr><th>Name</th><th>Count</th></tr></thead><tbody>';
 	for(key in retSet){
 		html += '<tr><td>'+ configureItems[key] + '</td><td>'+ retSet[key] +'</td></tr>';
