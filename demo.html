@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html charset="utf-8">
+<head>
+<title>Vote</title>
+<link href="sty.css" rel="stylesheet" media="screen">
+</head>
+	<body>
+	<div id="block_l"></div>
+	<div id="block_r"></div>
+	<div id="main">
+	<form action="/vote" method="post">
+	<div class="radio-toolbar">
+	<input type="radio"  value="1" name="items" id="1">
+	<label for="1">ITEM1</label>
+	<input type="radio"  value="2" name="items" id="2">
+	<label for="2">ITEM2</label>
+	<input type="radio"  value="3" name="items" id="3">	
+	<label for="3">ITEM3</label>
+	<input type="radio"  value="4" name="items" id="4">	
+	<label for="4">ITEM4</label>
+	<input type="radio"  value="5" name="items" id="5">	
+	<label for="5">ITEM5</label>
+	<input type="radio"  value="6" name="items" id="6">	
+	<label for="6">ITEM6</label>
+	<input type="radio"  value="7" name="items" id="7">	
+	<label for="7">ITEM7</label>
+	<table class="pure-table pure-table-bordered">
+		<thead>
+			<tr><th>Name</th><th>Age</th><th>SRs</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>ITEM1</td><td>32</td><td>ddd</td></tr>
+			<tr><td>ITEM2</td><td>53</td><td>sss</td></tr>
+			<tr><td>ITEM3</td><td>2</td><td>sss</td></tr>
+			<tr><td>ITEM4</td><td>5</td><td>kkk</td></tr>
+			<tr><td>ITEM5</td><td>23</td><td>ttb</td></tr>
+		</tbody>
+	</table>
+	</div>
+	<div id="btn">
+	<input type="submit" value="Vote" class="btnn red">
+	<a href="/result" class="btnn">Show Result</a>
+	</div>
+	</form>
+	</div>
+	</body>
+</html>
