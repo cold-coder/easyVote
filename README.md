@@ -12,6 +12,6 @@ A vote template, using nodejs
 
 ###Notice:
 1. No DB connected, result were in menory, will lost data when server shutdown. 
-2. One Ip only can vote once.
+2. One IP only can vote once.
 3. Do not use IE. 
 
